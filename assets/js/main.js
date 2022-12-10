@@ -66,7 +66,7 @@
 			}
 
 	// Main.
-		var	delay = 325,
+		var	delay = 125,
 			locked = false;
 
 		// Methods.
@@ -109,7 +109,7 @@
 							// Unmark as switching.
 								setTimeout(function() {
 									$body.removeClass('is-switching');
-								}, (initial ? 1000 : 0));
+								}, (initial ? 100 : 0));
 
 							return;
 
